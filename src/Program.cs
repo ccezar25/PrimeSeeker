@@ -4,7 +4,7 @@
  *
  *  Written by Caio Cezar, 2023
  *      PrimeSeeker
- *       v0.3a
+ *       v0.9a
  *       
  *      *GPLv2
 */
@@ -24,7 +24,7 @@ namespace PrimeSeeker
         {
 
             // Elemento para verificação
-            int elementN;
+            long elementN;
             // Versão String do Elemento
             string strElementN;
             //
@@ -33,9 +33,9 @@ namespace PrimeSeeker
             Console.WriteLine("Inicio...");
             Console.WriteLine("Insira um número natural: ");
             strElementN = Console.ReadLine();
-            elementN = Int32.Parse(strElementN);
+            elementN = long.Parse(strElementN);
             Console.WriteLine(elementN);
-            Mult2et3 n2a3 = new Mult2et3();
+            MultN n2a3 = new MultN();
             n2a3.CheckPrimeA(elementN);
             Console.WriteLine("...");
             Console.WriteLine();
