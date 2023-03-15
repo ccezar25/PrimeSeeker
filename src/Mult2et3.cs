@@ -12,23 +12,27 @@ namespace PrimeSeeker
         int element0;
 
         //Methods
+
+
         public bool CheckPrimeA(int a)
         {
-            int b;
-            b = a % 2;
-            if (b == 0 && b != 2)
+            int b2;
+            int b3;
+            b2 = a % 2;
+            b3 = a % 3;
+            if (b2 == 0 && b2 != a)
             {
                 Console.WriteLine("Não é primo!");
                 return false;
+            }
+            if(b3 == 0 && b3 != a) {
+                Console.WriteLine("Não é primo!");
+                return false;
+
             }
 
-            int b3;
-            b3 = a % 3;
-            if (b3 == 0 && b3 != 3)
-            {
-                Console.WriteLine("Não é primo!");
-                return false;
-            }
+
+
             else
             {
                 Console.WriteLine("Pode ser primo!");

@@ -4,7 +4,7 @@
  *
  *  Written by Caio Cezar, 2023
  *      PrimeSeeker
- *       v0.2a
+ *       v0.3a
  *       
  *      *GPLv2
 */
