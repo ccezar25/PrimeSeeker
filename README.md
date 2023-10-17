@@ -1,2 +1,2 @@
 # PrimeSeeker
-A simple prime number calculato.r
+A simple prime number calculator
